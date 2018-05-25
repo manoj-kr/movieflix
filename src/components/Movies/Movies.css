@@ -1,0 +1,86 @@
+body{
+  background: #0e0e0e;
+}
+.container{
+  background: #262626;
+}
+.movie-detail-section{
+      margin-top: 100px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.display-3{
+  font-size: 20px;
+  font-weight: bold;
+}
+.movie-date{
+  font-size: 13px;
+}
+.watched{
+  text-transform: none;
+}
+.heading{
+  font-weight:bold;
+  font-size:15px;
+  margin-bottom: 12px;
+  color: #FFF;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.movie-img{
+  display:block;
+  margin:auto;
+  border:3px solid rgba(128, 128, 128, 0.68);
+  border-radius: 3px;
+  height:100%;
+}
+.movie-img img{
+  width: 100%;
+  height: 100%;
+}
+.jumbotron{
+  border-radius:0;
+}
+.rating{
+  font-weight: bold;
+  color:#FFF;
+}
+.movies-list{
+  border: 3px solid rgba(128, 128, 128, 0.68);
+  height: 200px;
+  width: 100%;
+  border-radius: 3px;
+}
+.movie-detail-text{
+  background: #212121;
+  color:#FFF;
+  }
+.lead, .movie-date, .ratings{
+  color:#575757
+}
+.btn-secondary{
+  text-transform: none;
+}

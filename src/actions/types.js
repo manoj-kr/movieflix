@@ -1,1 +1,4 @@
 export const FETCH_MOVIES = 'FETCH_MOVIES';
+export const UPDATE_WATCH_LIST = 'UPDATE_WATCH_LIST';
+export const GET_WATCH_LIST = 'GET_WATCH_LIST';
+export const UPDATE_VOTE = 'UPDATE_VOTE';

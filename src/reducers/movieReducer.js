@@ -1,7 +1,11 @@
 import { FETCH_MOVIES } from '../actions/types';
+import { UPDATE_WATCH_LIST } from '../actions/types';
+import { GET_WATCH_LIST } from '../actions/types';
+import { UPDATE_VOTE } from '../actions/types';
 
 const initialState = {
-  movies: []
+  movieDetails: {},
+  watchList:[]
 }
 
 export default function(state = initialState, action){
@@ -9,10 +13,18 @@ export default function(state = initialState, action){
     case FETCH_MOVIES:
       return {
         ...state,
-        movies: action.payload
+        movieDetails: action.payload
       }
       break;
-    default:
+   case UPDATE_WATCH_LIST:
+   case GET_WATCH_LIST:
+   case UPDATE_VOTE:
+        return {
+          ...state,
+          watchList: action.payload
+        }
+        break;
+   default:
       return state;
     }
 }

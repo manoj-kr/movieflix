@@ -126,7 +126,7 @@ class Movies extends Component {
         <div className="row">
           <div className="col-lg-3">
           <div className="movie-img">
-            <img src={this.props.movieDetails.Poster !== undefined ? this.props.movieDetails.Poster : logo} alt=""/>
+            <img src={this.props.movieDetails.Poster !== undefined ? this.props.movieDetails.Poster : logo} alt="" onClick={this.toggleToWatchedList}/>
           </div>
           </div>
           <div className="col-lg-9">
